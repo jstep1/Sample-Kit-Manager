@@ -1,0 +1,22 @@
+{
+  "name": "sample-kit-manager",
+  "version": "1.0.0",
+  "description": "Application built to manage sample kits and alert managers &amp; reps on updates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jstep1/Sample-Kit-Manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jstep1/Sample-Kit-Manager/issues"
+  },
+  "homepage": "https://github.com/jstep1/Sample-Kit-Manager#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
