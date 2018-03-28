@@ -1,0 +1,77 @@
+<div class="container">
+    <a href="/"><p style="float: left"><i class="material-icons">arrow_back</i> Back</p></a><br><br>
+    <h4 class="center-align"><span id="name">John Smith</span></h4><br>
+    <div class="col s12 m7">
+            <div class="card horizontal" id="bigGoalCard">
+              <div class="card-stacked">
+                <div class="card-content">
+                    <div class="row">
+                    <div class="col s6">
+                    <ul class="center-align">
+                        <li><span id="repnumber">Rep Number: 11111111</span></li>
+                        <li><span id="phone">Phone: 777-777-7777</span></li>
+                        <li><span id="email">Email: rep@rep.com</span></li><br>
+                        <button class="btn">Text</button><button class="btn">Email</button>
+                    </ul><br>
+                    </div>
+                    <div class="col s6">
+                    <ul class="center-align">
+                        <li><span id="activity">Last Activity: 2/2/2018</span></li>
+                        <li><span id="inactive">Days Until Inactive: 21</span></li>
+                        <li><span id="chargeback">Chargeback? <b>N</b></span></li><br>
+                        <button class="btn red white-text">Return Kit</button> 
+
+                    </ul><br>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s2">
+                        </div>
+
+                        <div class="col s8">
+                        <button class="btn yellow black-text" style="width:100%">PDI</button>  
+                        </div>
+
+                        <div class="col s2">
+                        </div>
+
+                    </div>                 
+                </div>
+
+              </div>
+            </div>
+    </div>
+
+    <br>
+
+    <div class="progress">
+            <div class="determinate blue-grey" id="progressBarView" style="width: 50%"></div>
+    </div>
+    <p class="center-align"><span id="inact">5</span> days until inactive.</p>
+
+
+
+<div id="modal1" class="modal">
+        <div class="modal-content">
+          <h4>Are you sure?</h4>
+          <div class="row">
+                <a href="https://placeholder.com"><img src="https://robohash.org/{{userPic}}png?bgset=bg2&size=185x185" id="info"></a>
+                <p style="float: left">
+                    <ul>
+                        <li>
+                            <div class="input-field inline">
+                            <input type="number" id="stk"></input>
+                            <label for="stk">Stake Amount</label>
+                            </div>
+                        </li><br>
+                        <li>Your balance: <b><span id="ubal">{{userBalance}}</span></b></li>
+                        
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat buyIn" data-goal="{{view.goal_id}}">Stake</a>
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Cancel</a>
+        </div>
+</div>
